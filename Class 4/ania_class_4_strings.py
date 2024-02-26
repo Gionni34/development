@@ -3,8 +3,24 @@
 # String operators
 
 '''Concatenation'''
+# operator_code = 'A987'
+# part_id = '49Be'
+# item_number = operator_code + part_id
+# print(item_number)
+
+# first_name = 'Gionni'
+# last_name = 'Young'
+# full_name = first_name + ' ' + last_name
+# print(full_name)
+
 
 ''' Multiplication '''
+
+# greeting = 'hip hop hurray ' * 3
+# print(greeting)
+
+# my_favColor = 'Pink ' * 5
+# print(my_favColor)
 
 
 # Reference vs Value equality == vs is
