@@ -150,7 +150,13 @@
 
 
 # Fahrenheit to Celsius
+# C = (F - 32) * 5/9 
 fahrenheit = 89
+celsius = (fahrenheit - 32) * 5/9
+print(celsius)
+
+
+
 
 # Eval
 cold_weather = 'True'
