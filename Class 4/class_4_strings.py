@@ -126,7 +126,6 @@ word_8 = 'Supercalifragilisticexialidocious'
 # print(word_8.index('g'))
 
 
-
 # isalnum() Are all my characters alphanumeric? Alphanumeric is A-Z, a-z and 0-9
 
 test_1 = 'abcdef'
@@ -140,7 +139,6 @@ ex_8 = '123*'   # Am I alphanumeric?
 # print(ex_8.isalnum())
 
 
-
 # isalpha() Area all characters in the string in the alphabet?
 
 test_3 = 'abcde'
@@ -152,6 +150,7 @@ test_4 = '012345'
 
 ex_9 = 'LMN0P' # Are we all in the alphabet
 # print(ex_9.isalpha())
+
 
 # isdecimal() Are all characters decimals?
 
@@ -179,49 +178,67 @@ ex_10 = '123Hello' # Check for digits!
 isnumeric will check for unicode characters
 '''
 
-
 # islower() Lets check for lowercase
 
 test_9 = 'Zebra'
 test_10 = 'affordable'
+# print(test_9.lower()) 
+# print(test_10.lower())
 
 
 ex_12 = 'Username' # check if all lowercase
+# print(ex_12.islower())
 
 # isupper() lets check for ALL uppercase
 
 test_11 = 'Marshall'
 test_12 = 'HALLOWEEN'
+# print(test_11.isupper()) 
+# print(test_12.isupper())
 
 
 ex_13 = 'TEMPLE' # check if uppercase
+# print(ex_13.isupper())
+
 
 # isspace() Lets check for whitespace (someone enters nothing for an input)
 
 test_13 = '    '
 test_14 = 'j      b    c'
-
+# print(test_13.isspace())
+# print(test_14.isspace())
 
 ex_14 = '   ' # check if whitespace
+# print(ex_14.isspace())
 
 
 # istitle() Let's check for title case
 
 test_15 = 'Eye of the tiger'
 test_16 = 'Eye Of The Tiger'
-
+# print(test_15.istitle())
+# print(test_16.istitle())
 
 ex_15 = 'Tempus Fugit' # check for title casing
+# print(ex_15.istitle())
+
 
 # join() Joins the elements of an iterable to the end of the string
 
 my_colors = ['blue', 'green', 'red', 'orange', 'blue']
+# new_string = ' '.join(my_colors) # Can put anything in between (' ') to join list
+# print(new_string)
 
 
 ex_16 = ['summer', 'spring', 'fall', 'winter'] # create a string from this list and separate it with an asterisk
+# new_string = ' '.join(ex_16)
+# print(ex_16)
+
 
 # lower() Converts a string into lower case
 day = 'MONDAY'
+# new_day = day.lower()
+# print(new_day)
 
 
 # partition() Returns a tuple where the string is partitioned into three parts
@@ -254,8 +271,15 @@ ex_20 = 'summer' # Check if this string starts with an 's'
 
 # strip() Returns a trimmed version of the string
 username = '   jessica123    '
+# username_cleaned = username.strip()
+# print(len(username))
+# print(len(username_cleaned))
 
 ex_21 = '  sportsfan876  ' # sanitize this string
+
+
+user_input = input("What is your name? ")
+print(user_input)
 
 '''
 Write some code that will take a string from the user and print if it is a number or not.
