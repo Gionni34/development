@@ -175,10 +175,85 @@ test_8 = '9876'
 ex_10 = '123Hello' # Check for digits!
 # print(ex_10.isdigit())
 
+''' Fun fact isdecimal() method supports only Decimal Numbers. isdigit() method supports Decimals, Subscripts, Superscripts. 
+isnumeric will check for unicode characters
+'''
+
+
+# islower() Lets check for lowercase
+
+test_9 = 'Zebra'
+test_10 = 'affordable'
+
+
+ex_12 = 'Username' # check if all lowercase
+
+# isupper() lets check for ALL uppercase
+
+test_11 = 'Marshall'
+test_12 = 'HALLOWEEN'
+
+
+ex_13 = 'TEMPLE' # check if uppercase
+
+# isspace() Lets check for whitespace (someone enters nothing for an input)
+
+test_13 = '    '
+test_14 = 'j      b    c'
+
+
+ex_14 = '   ' # check if whitespace
+
+
+# istitle() Let's check for title case
+
+test_15 = 'Eye of the tiger'
+test_16 = 'Eye Of The Tiger'
+
+
+ex_15 = 'Tempus Fugit' # check for title casing
+
+# join() Joins the elements of an iterable to the end of the string
+
+my_colors = ['blue', 'green', 'red', 'orange', 'blue']
+
+
+ex_16 = ['summer', 'spring', 'fall', 'winter'] # create a string from this list and separate it with an asterisk
+
+# lower() Converts a string into lower case
+day = 'MONDAY'
+
+
+# partition() Returns a tuple where the string is partitioned into three parts
+test_17 = 'I am excited about spring time.'
+
+ex_17 = 'We will be going to the park next week.' # partition this string on the word 'going'
+
+# replace() Returns a string where a specified value is replaced with a specified value
+food = 'My favorite food is pizza.'
+
+
+ex_18 = 'Today is Tuesday. Tuesday we play golf.' # replace instances of Tuesday with Thursday
+
+
+# split() Splits the string at the specified separator, and returns a list
+test_18 = 'I will be broken up on every space'
+
+
+ex_19 = 'Split*me*up*on*the*asterisk' # split this spring up on every asterisk
+
+# splitlines() Splits the string at line breaks and returns a list
+lyrics = "Every time that I look in the mirror\nAll these lines on my face getting clearer\nThe past is gone\nOh, it went by like dusk to dawn\nIsn't that the way?"
+
+
+# startswith() Returns true if the string starts with the specified value
+
+name = 'giraffe'
+
+ex_20 = 'summer' # Check if this string starts with an 's'
 
 # strip() Returns a trimmed version of the string
 username = '   jessica123    '
-
 
 ex_21 = '  sportsfan876  ' # sanitize this string
 
@@ -195,23 +270,79 @@ True
 
 # Get input from user
 
-
 # Test input
-
-
 
 # Provide output
 
 
 
+'''
+Take a word from the user. Then take a number from the user. Then print whether the word is longer than the number.
+
+Examples:
+apple
+6
+False
+
+python
+4
+True
+'''
+
+# Get user input
+
+# Convert where needed
+
+# Comparison
+
+# Output
+
+
+'''
+Exercise 
+
+Write some code that takes a string from the user, and prints how many vowels are in the string. (Vowels are a, e, i, o, u)
+How will you count both uppercase and lowercase vowels?
+What string method can you use to count the number of vowels?
+
+Example
+User input: Computer
+3
+
+'''
 
 
 
+'''
+You have a variable called hours which equals 24, the number of hours in a day.
+Print There are 24 hours in a day. Make sure to use your variable.
+First, print using commas. Remember that using commas automatically adds spaces!
+Now, print using string concatenation. Remember to cast hours to a string and manually add the spaces!
+
+'''
 
 
+'''
+Write some code that will print a box around a string.
+
+Examples:
+User input: hello
+*******
+*hello*
+*******
+
+User input: programming is fun
+********************
+*programming is fun*
+********************
+'''
+
+# get input
 
 
+# get length for top and bottom border
 
+# create output, dont forget to append asterisk to front and back of the string
 
 
 
