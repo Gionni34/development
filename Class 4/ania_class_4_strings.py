@@ -26,24 +26,35 @@
 # Reference vs Value equality == vs is
 x = 'hello'
 str2 = 'HELLO'.lower()
+# print(x)
+# print(str2)
+# print(x == str2)
+# print(x is str2)
+# print(id(x))
+# print(id(str2))
 
 
 ''' in - Returns True if a string appears inside another string (as a substring), and False otherwise.'''
 
-test_character = 'b'
-test_string = 'bananas'
-
+# test_character = 'b'
+# test_string = 'bananas'
+# print(test_character in test_string) #?
 
 ''' create a quick test to see if the sub string 'spreh' can be found in the string 'Incomprehensibilities' '''
-test_char = 'spreh'
+test_chars = 'spreh'
 test_word = 'Incomprehensibilities'
 
-
+# print(test_chars in test_word)
 
 ''' len() - Returns the length of a string, aka the number of characters in a string.'''
 
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
+# alphabet = 'abcdefghijklmnopqrstuvwxyz'
+# length_of_alphabet = len(alphabet)
+# print(length_of_alphabet)
 
+# animal = 'monkey'
+# length_of_animal = len(animal)
+# print(length_of_animal)
 
 
 
