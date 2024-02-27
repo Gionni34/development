@@ -278,8 +278,12 @@ username = '   jessica123    '
 ex_21 = '  sportsfan876  ' # sanitize this string
 
 
-user_input = input("What is your name? ")
-print(user_input)
+# user_input = int(input("What is your favorite number? "))  # Casting the string to an integer 
+# # print(type(user_input))
+
+# user_input = input("What is your name? ")
+# print(user_input)
+# print(type(user_input))
 
 '''
 Write some code that will take a string from the user and print if it is a number or not.
@@ -293,12 +297,13 @@ True
 '''
 
 # Get input from user
+user_input = input('Good Afternoon, please enter your input: ')
 
 # Test input
+result = user_input.isdigit()
 
 # Provide output
-
-
+print('Is your input a number or not?', result)
 
 '''
 Take a word from the user. Then take a number from the user. Then print whether the word is longer than the number.
