@@ -126,10 +126,10 @@ word = 'Supercalifragilisticexpialidocious'
 
 '''Slicing in reverse '''
 
-animal = 'daycare' # Excludes the start character
-# print(animal[::-1]) # Full daycare in reverse
-# print(animal[5:0:-1]) # aycar
-# print(animal[6:0:-1]) # eracya
+random_word = 'daycare' # Excludes the start character
+# print(random_word[::-1]) # Full daycare in reverse
+# print(random_word[5:0:-1]) # racya
+# print(random_word[6:0:-1]) # eracya
 
 
 
@@ -144,6 +144,25 @@ python
 hon
 
 '''
+
+
+# Create variable for word
+
+# language = 'python'
+
+# Create a variable to get half of the length of the word
+
+# half = int(len(language)/2)
+# print(half)
+
+# Create final bracket notation
+
+# result = language[half:len(language)]
+# print(result)
+
+# To shorten code to put on one line 
+
+# print(language[int((len(language) / 2 )):len(language)])
 
 
 '''
