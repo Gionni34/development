@@ -84,7 +84,7 @@ fav_season = 'spring'
 ''' Slicing '''
 # There are 3 parameters available with indexing with bracket notation [start:stop:step]
 fav_food = 'spaghetti'
-# slice_of_fav_food = fav_food[2:6] # Exclude the character at stop (2 is the start parameters/6 is the stop parameter)
+# slice_of_fav_food = fav_food[2:6] # Exclude the character at stop (2 is the start parameter /6 is the stop parameter)
 # print(slice_of_fav_food)
 
 
@@ -198,7 +198,13 @@ test_1 = (email[-4] == '.')       # Test true or false
 print('Test 1: Does the email have a  "." at the third to last index?' , test_1)
 
 
-# Test 2: It has exactly one "@" symbol, at the fifth-to-last index or earlier
+# Test 2: It has exactly one "@" symbol, at the fifth-to-last index or earlier, email can not be @.com
+
+test_2 = 
+
+print('Test 2: Does your email have exactly one "@" symbol, at the fifth-to-last index or earlier?', test_2)
+
+
 
 # Test 3: There is at least one character before the "@" symbol
 
