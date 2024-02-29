@@ -181,7 +181,13 @@ Test your code on a few inputs to make sure it works!
 
 # Get input 
 
-# Clean input
+email =input("Hello, Please enter you email address: ")
+
+
+# Clean input/Sanitize
+
+email = email.strip()
+
 
 # Test 1: It has a "." at the third-to-last index
 
