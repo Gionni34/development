@@ -191,6 +191,13 @@ email = email.strip()
 
 # Test 1: It has a "." at the third-to-last index
 
+                        # print(email[-4])
+
+                        # email = 'gionni@gmail.com'
+test_1 = (email[-4] == '.')       # Test true or false
+print('Test 1: Does the email have a  "." at the third to last index?' , test_1)
+
+
 # Test 2: It has exactly one "@" symbol, at the fifth-to-last index or earlier
 
 # Test 3: There is at least one character before the "@" symbol
