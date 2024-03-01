@@ -36,7 +36,7 @@ last_position = greeting[len(greeting)-1] # Grabbing the length minus 1 and appl
 # print(last_position)
 
 # Using the length and bracket notation, access the last letter in the variable below
-# month = 'February'
+month = 'February'
 # last_letter = month[len(month)-1]
 # print(last_letter)
 
@@ -191,18 +191,31 @@ email = email.strip()
 
 # Test 1: It has a "." at the third-to-last index
 
-                        # print(email[-4])
 
-                        # email = 'gionni@gmail.com'
 test_1 = (email[-4] == '.')       # Test true or false
 print('Test 1: Does the email have a  "." at the third to last index?' , test_1)
 
 
 # Test 2: It has exactly one "@" symbol, at the fifth-to-last index or earlier, email can not be @.com
 
-test_2 = 
+test_2 = ('@' in email[-6:0:-1])
+print('Does the email have exactly one "@" symbol, at the fifth-to-last index or earlier?',test_2 )
 
-print('Test 2: Does your email have exactly one "@" symbol, at the fifth-to-last index or earlier?', test_2)
+''' in - Returns True if a string appears inside another string (as a substring), and False otherwise.'''
+
+# test_character = 'c'
+# test_string = 'bananas'
+# print(test_character in test_string) #?
+
+
+# test_2 = (email[])
+random_word = 'daycare' # Excludes the start character
+# print(random_word[::-1]) # Full daycare in reverse
+# print(random_word[5:0:-1]) # racya
+# print(random_word[6:0:-1]) # eracya
+
+
+# print('Test 2: Does your email have exactly one "@" symbol, at the fifth-to-last index or earlier?', test_2)
 
 
 
