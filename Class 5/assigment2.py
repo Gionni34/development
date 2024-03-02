@@ -53,7 +53,10 @@ print('Is there at least one character before the "@" symbol?', test_3)
 # test_4 = (email.isspace() == 0 )
 # print(test_4)
 
-# print('Your email does not contain any spaces', test_4)
+test_4 = (" " in email)
+# print(test_4)
+
+print('Your email does not contain any spaces:', test_4)
 
 
 # Final Test with and Keyword
