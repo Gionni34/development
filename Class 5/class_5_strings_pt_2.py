@@ -209,9 +209,17 @@ print('Is there at least one character before the "@" symbol?', test_3)
 
 
 # Test 4: It doesn’t have any spaces (doesn’t contain " ")
+test_character = ' '
+test_4 = (test_character not in email)
+print(test_4)
+
+print(" Your email doesn't have any space ", test_4)
 
 
 #Final Test with and Keyword
+
+final_result = (test_1 and test_2 and test_3 and test_4)
+print( " Is this email valid?", final_result)
 
 
 # End Parameter
