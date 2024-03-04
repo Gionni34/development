@@ -3,9 +3,18 @@
 ''' Lets follow through the two code snippets below'''
 
 # This will run
+# x = 20
+# y = 15
 
+# if x > y :
+#     print(x)
 
-# This will not run
+# # This will not run
+# x = 20
+# y = 20
+
+# if x > y :
+#     print(x)
 
 
 
@@ -18,7 +27,6 @@ Write some code that prints “This is odd” if the user inputs an odd number.
 Example:
 User input: 7
 This is odd
-
 '''
 
 # We can use modulus to figure out odd or even
@@ -29,6 +37,10 @@ This is odd
 
 '''Exercise Solution'''
 
+user_input = int(input("Please enter an odd number: "))
+
+if user_input % 2 != 0:
+    print("This is odd")
 
 
 ''' Else If (Elif) Statements '''
