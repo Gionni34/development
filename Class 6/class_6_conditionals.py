@@ -187,28 +187,16 @@ This is something else
 else
 
 '''
-user_input = input("PLease enter your data: ")
+# user_input = input("PLease enter your data: ")
 
-if user_input.isdigit():
-    print(f'{user_input} is a number')
-elif user_input.isalpha():
-    print(f'{user_input} is a word')
-else:
-    print(f'{user_input} is something else')
+# if user_input.isdigit():
+#     print(f'{user_input} is a number')
+# elif user_input.isalpha():
+#     print(f'{user_input} is a word')
+# else:
+#     print(f'{user_input} is something else')
+
     
-    
-
-
-
-
-
-
-
-
-
-
-
-
 
 '''Chaining Conditionals code results'''
 
@@ -251,6 +239,8 @@ num = 5
 #         if num > 0:
 #             print("This is a single digit odd number")
 
+# Another way to write code - simpler / shorten code
+
 # if num % 2 and num < 10 and num > 0:
 #     print("This is a single digit odd number")
 
@@ -268,11 +258,16 @@ If they match, print “Login successful.” If they don't, print “Incorrect u
 
 
 
-# Prompt the user to enter their username and password using the input() function.
+# Prompt the user to enter their username and password using the input() function. Be sure to sanitize your data
+
+username_input = input("Please enter username:")
+password_input = input("Please enter password: ")
 
 
 # Create two variables called username and password and set them to any valid string values.
 
+username = "Python"
+password = "Programming"
 
 # Create your conditional
 
