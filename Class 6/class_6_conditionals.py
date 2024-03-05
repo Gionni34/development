@@ -55,7 +55,7 @@ F - Anything under 65
 '''
 # Get grade from user (Grades testing for are 0-100)
 
-score = int(input("Please enter your grade: "))
+# score = int(input("Please enter your grade: "))
 
 # Option 1
 
@@ -97,138 +97,145 @@ score = int(input("Please enter your grade: "))
 # else:
 #     print("Grade: F")
 
-# Exercise
-# Add to your previous code so it prints “This is odd” if the user enters an odd number, and “This is even” if the user enters an even number.
-# (Hint: add an elif statement)
+'''Exercise
+Add to your previous code so it prints “This is odd” if the user enters an odd number, and “This is even” if the user enters an even number.
+(Hint: add an elif statement)
 
-# Examples:
-# User input: 7
-# This is odd
+Examples:
+User input: 7
+This is odd
 
-# User input: 12
-# This is even
+User input: 12
+This is even
 
-# '''
+'''
 
-# ''' Exercise solution with an elif and else'''
+''' Exercise solution with an elif and else'''
 
+user_input = int(input("Please enter a number: "))
 
-
-
-
-
-# '''
-# Exercise
-# Add to your previous code so if the user enters something that isn't an odd number or an even number, print “Unknown”.
-
-
-# Examples:
-# User input: 7
-# This is odd
-
-# User input: 12
-# This is even
-
-# User input: 9.2
-# Unknown
-
-
-# '''
-
-# ''' Exercise solution(s)'''
+if user_input % 2 != 0:
+    print("This is odd")
+else:
+    print("This is even")
 
 
 
 
 
 
+'''
+Exercise
+Add to your previous code so if the user enters something that isn't an odd number or an even number, print “Unknown”.
 
 
-# '''
-# Exercise
+Examples:
+User input: 7
+This is odd
 
-# Write some code that takes in a string from the user and prints whether the string is a number, if it is a word, or something else.
+User input: 12
+This is even
 
-# Examples:
-# User input: 7
-# This is a number
+User input: 9.2
+Unknown
 
-# User input: abcde
-# This is a word
 
-# User input: 7!ab5
-# This is something else
+'''
 
-# '''
+''' Exercise solution(s)'''
 
 
 
 
-# '''Chaining Conditionals code results'''
 
-# # Mutually exclusive
+
+
+
+'''
+Exercise
+
+Write some code that takes in a string from the user and prints whether the string is a number, if it is a word, or something else.
+
+Examples:
+User input: 7
+This is a number
+
+User input: abcde
+This is a word
+
+User input: 7!ab5
+This is something else
+
+'''
+
+
+
+
+'''Chaining Conditionals code results'''
+
+# Mutually exclusive
     
-# # temp_f = 35
-# # if temp_f > 70:
-# #     print("It is hot outside")
-# # elif temp_f > 40:
-# #     print("It's moderate outside")
-# # else:
-# #     print("It's cold outside")
+# temp_f = 35
+# if temp_f > 70:
+#     print("It is hot outside")
+# elif temp_f > 40:
+#     print("It's moderate outside")
+# else:
+#     print("It's cold outside")
 
 
-# # result - evaluated separately and multiple of them could be run
+# result - evaluated separately and multiple of them could be run
     
-# # temp_f = 75
-# # if temp_f > 70:
-# #     print("It is hot outside")
-# # if temp_f > 40:
-# #     print("It's moderate outside")
-# # if temp_f <= 40:
-# #     print("It's cold outside")
+# temp_f = 75
+# if temp_f > 70:
+#     print("It is hot outside")
+# if temp_f > 40:
+#     print("It's moderate outside")
+# if temp_f <= 40:
+#     print("It's cold outside")
 
-# # 70 won't run
-# # temp_f = 70
-# # if temp_f > 70:
-# #     print("It is hot outside")
-# # if temp_f > 40 and temp_f < 70:
-# #     print("It's moderate outside")
-# # if temp_f <=40:
-# #     print("It's cold outside")
-
-
-# # nested conditionals
-# num = 5
-
-# # if num % 2 == 1:
-# #     if num < 10:
-# #         if num > 0:
-# #             print("This is a single digit odd number")
-
-# # if num % 2 and num < 10 and num > 0:
-# #     print("This is a single digit odd number")
+# 70 won't run
+# temp_f = 70
+# if temp_f > 70:
+#     print("It is hot outside")
+# if temp_f > 40 and temp_f < 70:
+#     print("It's moderate outside")
+# if temp_f <=40:
+#     print("It's cold outside")
 
 
-# '''
-# Exercise
+# nested conditionals
+num = 5
 
-# You're working on a project to develop a login system for a website. The website requires the user to enter a username and password to log in. Write a Python program that checks whether the user entered the correct username and password.
-# Create two variables called username and password and set them to any valid string values.
+# if num % 2 == 1:
+#     if num < 10:
+#         if num > 0:
+#             print("This is a single digit odd number")
+
+# if num % 2 and num < 10 and num > 0:
+#     print("This is a single digit odd number")
+
+
+'''
+Exercise
+
+You're working on a project to develop a login system for a website. The website requires the user to enter a username and password to log in. Write a Python program that checks whether the user entered the correct username and password.
+Create two variables called username and password and set them to any valid string values.
+Prompt the user to enter their username and password using the input() function.
+Use conditionals and logical operators to check whether the username and password entered by the user match the username and password variables.
+If they match, print “Login successful.” If they don't, print “Incorrect username or password.”
+'''
+''' Exercise solution '''
+
+
+
 # Prompt the user to enter their username and password using the input() function.
-# Use conditionals and logical operators to check whether the username and password entered by the user match the username and password variables.
-# If they match, print “Login successful.” If they don't, print “Incorrect username or password.”
-# '''
-# ''' Exercise solution '''
 
 
-
-# # Prompt the user to enter their username and password using the input() function.
-
-
-# # Create two variables called username and password and set them to any valid string values.
+# Create two variables called username and password and set them to any valid string values.
 
 
-# # Create your conditional
+# Create your conditional
 
 
 
