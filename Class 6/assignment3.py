@@ -13,13 +13,22 @@ If they match, print “Login successful.” If they don't, print “Incorrect u
 
 # Prompt the user to enter their username and password using the input() function.
 
-username_input = input("Please enter username:")
-password_input = input("Please enter password: ")
+# username = input("Please enter username: ")
+# password = input("Please enter password: ")
 
 
 # Create two variables called username and password and set them to any valid string values.
 
-username = "Python"
-password = "Programming"
+# username = "Python"
+# password = "Programming"
 
 # Create your conditional
+
+
+username = input("Please enter username: ")
+password = input("Please enter password: ")
+  
+if username == "Python" and password == "Programming":
+    print("Login Successful")
+else:
+    print("Incorrect username or password")
