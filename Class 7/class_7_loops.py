@@ -183,24 +183,14 @@ Example:
 Hint: remember to cast to int() for each digit in the loop
 '''
 
-sum = 0  # Initialize our variable
-user_number = input("Please enter a number: ")
+# sum = 0  # Initialize our variable
+# user_number = input("Please enter a number: ")
 
-for t in user_number:
-    if user_number.isdecimal(): # once we confirm it is a number
-        t = int(t)  # this has to be cast to an integer to be added to sum
-        sum += t # every time through, we will ad that value to sum
-print(f'Your total is {sum}')
-
-
-
-
-
-
-
-
-
-
+# for t in user_number:
+#     if user_number.isdecimal(): # once we confirm it is a number
+#         t = int(t)  # this has to be cast to an integer to be added to sum
+#         sum += t # every time through, we will ad that value to sum
+# print(f'Your total is {sum}')
 
 ''' Exercise 
 Write some code that will loop through a string and print whether each letter is a vowel or consonant.
@@ -216,6 +206,15 @@ o is a vowel
 
 '''
 
+# word = input("Please enter your word: ")
+# vowels = 'aeiou'
+
+# for w in word:
+    
+#     if w in vowels:
+#         print(f'{w} is a vowel')
+#     else:
+#         print(f'{w} is a consonant')
 
 
 
@@ -225,10 +224,25 @@ Write a Python program that takes a string as input from the user, removes anyth
 You can loop through the string in a for loop, use the .isalpha() string method, and remember that strings are immutable, so you will have to build a new string from scratch using string concatenation.
 '''
 
+# user_input = input("Please enter some data: ")
+# onlyletters = ' '
+# for letters in user_input:
+#     if ('A'<= letters <= 'Z') or ('a' <= letters <= 'z'):
+#         onlyletters += letters
+# print(onlyletters)
+
+##########################################################################################################################
 
 
+# result = ' '
+# user_input = input("Please enter some data: ")
 
-
+# for u in user_input:
+#     if u.isalpha(): # If the letter in the string is in the alphabet
+#         result += u # this will append that character to our new string
+#     else:
+#         print(f'Sorry {u} is not a letter')
+# print(result)
 
 
 
