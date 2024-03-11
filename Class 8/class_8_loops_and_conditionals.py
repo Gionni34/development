@@ -9,9 +9,18 @@ How do I write a While Loop?
 # For Loop
 colors = ['green', 'blue', 'orange', 'yellow']
 
-
+# for c in colors:
+#     print(c)
 
 # While Loop
+'''Initialization of Variables'''
+
+# limit = 26
+# start = 0
+
+# while start < limit : # CONDITION
+#     print(start) # feedback for the user
+#     start += 1
 
 
 
@@ -20,11 +29,51 @@ colors = ['green', 'blue', 'orange', 'yellow']
 
 # Lets look at the 2 examples below and take note where the loop stops
 
+# south = 10
+# north = 5
+# west = 6
+# east = 11
+
+# south, north, west, east = '','','',''  #initialization of variables on one line
+
+# userin = '' # initialization of variable
+
+# while userin != 'stop':
+#     userin = input("Enter something or hit stop to leave the loop: ")
+#     print(userin)
+
+# userin = '' # initialization of variable
+# while True:
+#     userin != input("Enter something or hit stop to leave the loop: ")
+#     if userin =='stop':
+#        break
+#     print(userin)
 
 
 
 
 ''' Break in nested loops '''
+
+# i = 3
+# while i > 0:
+#     print(i)
+#     i -= 1
+#     if i ==4:
+#         break
+# else:
+#     print('done')
+
+userin = ''
+#Taking a string from user until they hit stop
+while userin != 'stop':
+    userin = input("Please enter a word or hit stop to end the loop: ")
+
+    for l in userin:   # looping through the input from the user
+        if l.isalpha(): # we are testing to see if each character is in the alphabet
+            print(l)
+        else:
+            break
+    print("This is our next line")
 
 
 
