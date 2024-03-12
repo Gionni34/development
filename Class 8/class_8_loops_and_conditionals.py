@@ -63,17 +63,27 @@ colors = ['green', 'blue', 'orange', 'yellow']
 # else:
 #     print('done')
 
-userin = ''
-#Taking a string from user until they hit stop
-while userin != 'stop':
-    userin = input("Please enter a word or hit stop to end the loop: ")
+# userin = ''
+# #Taking a string from user until they hit stop
+# while userin != 'stop':
+#     userin = input("Please enter a word or hit stop to end the loop: ")
 
-    for l in userin:   # looping through the input from the user
-        if l.isalpha(): # we are testing to see if each character is in the alphabet
-            print(l)
-        else:
-            break
-    print("This is our next line")
+#     for l in userin:   # looping through the input from the user
+#         if l.isalpha(): # we are testing to see if each character is in the alphabet
+#             print(l)
+#         else:
+#             break
+#     print("This is our next line")
+
+# while True:
+#     userinput = input("Please enter a word: ")
+#     print("We are on line 80")
+#     print(userinput)
+#     print("we are still in the while loop")
+#     break
+#     print("I will not print, because we used the break keyword above me")
+    
+# print("Why am I printed?")    # this is outside of the loop
 
 
 
@@ -97,6 +107,36 @@ Error: Not a number
 
 '''
 '''Declare any needed variables'''
+
+
+userinput, sum = '', 0
+
+'''Start our loop'''
+while True:
+    '''Get our input'''
+    userinput = input("Please enter your number: ")
+    '''Test for a letter'''
+    print(userinput)
+
+    if userinput.isalpha():
+        print("Error: Not a number")
+        break
+
+
+'''convert to integer, end and print sum if zero, otherwise continue to add to sum'''
+
+userinput = int(userinput)  # recast to integer
+if userinput == 0:
+    print(f'Sum: {sum}')
+    break
+else: 
+    sum += userinput
+
+    
+    
+
+
+
 
 
 
