@@ -112,47 +112,76 @@ sort() Sorts the list
 
 '''
 
-food = ['ice cream', 'pizza', 'apple', 'burger', 'cookies']
+food = ['ice cream', 'pizza', 'apple', 'burger', 'cookies', 'pizza', 'burger']
 
 # lets add salad with append
 
+# food.append('salad')
+# print(food)
 
 
 # lets remove all items with clear
 
-
+# food.clear()
+# print(food)
 
 # let create a copy
 
+# new_food_list = food.copy()
+# food.append('asparagus')
+# print('This is our copy', new_food_list)
+# print('This is our original list' , food)
 
-# How many times does pizza appear?
+# How many times does pizza appear? , count method
+
+# pizza_count = food.count('pizza')
+# print(pizza_count)
 
 
-# Lets add items of a list to our food list
-vegetables = ['carrots', 'asparagus', 'broccoli']
 
+# Lets add items of a list to our food list, extend method 
+# vegetables = ['carrots', 'asparagus', 'broccoli']
+# food.extend(vegetables)
+# print(food)
 
 # lets find the index value for apple
 
-# Lets add cereal to the 3rd spot in our list
+# print('The index of the apple is', food.index('apple'))
 
 
-# Lets remove a food by index position
-#
+# Lets add cereal to the 3rd spot in our list, insert method
 
-# Lets remove an item with a specified value
-
-
-# Lets reverse our list
+# food.insert(3, 'cereal')
+# print(food)
 
 
+# Lets remove a food by index position, pop method
+# food.pop(1)
+# print(food)
 
-# Lets sort our list
 
+# Lets remove an item with a specified value, remove method
+
+# food.remove('burger') # remove will only remove the 1st instance, if value is duplicated only first one will be removed
+# print(food)
+
+
+# Lets reverse our list, reverse method
+# food.reverse()
+# print(food)
+
+
+
+# Lets sort our list, sort method
+# food.sort()
+# print(food)
 
 # Sort versus sorted()
 
 # Sorted returns a newer sorted list
+
+new_sorted_list = sorted(food)
+print(new_sorted_list)
 
 
 
