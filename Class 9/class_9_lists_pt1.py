@@ -180,8 +180,8 @@ food = ['ice cream', 'pizza', 'apple', 'burger', 'cookies', 'pizza', 'burger']
 
 # Sorted returns a newer sorted list
 
-new_sorted_list = sorted(food)
-print(new_sorted_list)
+# new_sorted_list = sorted(food)
+# print(new_sorted_list)
 
 
 
@@ -193,6 +193,20 @@ You want to make a list containing the types of pets that the user has. Keep pro
 
 '''
 
+# user_input = ' ' # Initialization
+# pet_names =[] # This will capture aniaml names
+
+# while user_input != 'stop':
+#     user_input = input("Please enter your pet name: ")
+#     if user_input == 'stop': # This is to not add stop to the list
+#         break
+#     elif user_input not in pet_names: 
+#         pet_names.append(user_input)
+#     else:
+#         print(f'{user_input} is already in the list')
+
+# print(pet_names)
+
 
 
 ''' Removing duplicates from a list, but leaving 1'''
@@ -201,8 +215,17 @@ colors = ['blue', 'blue', 'blue', 'green', 'red', 'blue', 'blue']
 
 # Option 1 
 
+# new_colors = [] # This will capture unique colors
+# for c in colors: # looping through original list
+#     if c not in new_colors:
+#         new_colors.append(c)
+# print(new_colors)
+
 
 # Option 2 - Using Sets
+
+# colors = list(set(colors))
+# print(colors)
 
 
 
